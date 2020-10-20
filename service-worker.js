@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ankietoweSzalenstwo/precache-manifest.a5eafc55190ec711aea40b28e747af96.js"
+  "/ankietoweSzalenstwo/precache-manifest.709b90b20650e5a96a2c6923e73ae837.js"
 );
 
 self.addEventListener('message', (event) => {

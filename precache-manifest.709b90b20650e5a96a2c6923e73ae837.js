@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5b7baa42169f0fd097f0c31fd1caa56d",
+    "revision": "98a0e95f7878dff396ed1fa84a295b7c",
     "url": "/ankietoweSzalenstwo/index.html"
   },
   {
-    "revision": "5287afd96ecea5d7b560",
+    "revision": "b3628c6df02fde1ce62f",
     "url": "/ankietoweSzalenstwo/static/css/main.26973927.chunk.css"
   },
   {
-    "revision": "fe4f13429b804b298d23",
-    "url": "/ankietoweSzalenstwo/static/js/2.55fc4a68.chunk.js"
+    "revision": "014051dd3817c467e896",
+    "url": "/ankietoweSzalenstwo/static/js/2.2d5f7a0d.chunk.js"
   },
   {
     "revision": "f9e7e68e90600aabdd7d1f759413461d",
-    "url": "/ankietoweSzalenstwo/static/js/2.55fc4a68.chunk.js.LICENSE.txt"
+    "url": "/ankietoweSzalenstwo/static/js/2.2d5f7a0d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5287afd96ecea5d7b560",
-    "url": "/ankietoweSzalenstwo/static/js/main.37736941.chunk.js"
+    "revision": "b3628c6df02fde1ce62f",
+    "url": "/ankietoweSzalenstwo/static/js/main.843d2633.chunk.js"
   },
   {
     "revision": "0a59db0a84c7021584a0",
