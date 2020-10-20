@@ -1,0 +1,115 @@
+.margin {
+    margin-top: 1em;
+}
+.margin2 {
+    margin-top: .25em;
+}
+
+.left-desktop {
+
+}
+
+.right-desktop {
+    @media screen and (max-width: 1023px) {
+        margin-top: 0!important;
+      }
+}
+.windowSign {
+    border: 6px double $media-border-color!important;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    background-color: $third-background-color!important;
+}
+.window {
+    border: 6px double $media-border-color!important;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    background-color: $second-background-color!important;
+}
+.windowSecond {
+    border: 6px double $media-border-color!important;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    background-color: $second-background-color!important;
+}
+.favourites {
+    border: 6px double $media-border-color;
+    position: relative;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    background-color: $second-background-color;
+}
+.favourites::before {
+ background:#ff575770;
+ border-radius:2px 2px 0 0;
+ bottom:100%;
+ color:rgba(0,0,0,.7);
+ content:"Wymagające odwiedzin";
+ display:inline-block;
+ font-size:9px;
+ font-weight:800;
+ left:-1px;
+ letter-spacing:1px;
+ margin-left:-1px;
+ top: -18px;
+ padding: 3px 11px;
+ position:absolute;
+ text-transform:uppercase;
+ vertical-align:top
+}
+.rest {
+    border: 6px double $media-border-color;
+    position: relative;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    background-color: $second-background-color;
+}
+.rest::before {
+background:#fff45750;
+border-radius:2px 2px 0 0;
+bottom:100%;
+color:rgba(0,0,0,.7);
+content:"Przesyłające badania na emial";
+display:inline-block;
+font-size:9px;
+font-weight:800;
+left:-1px;
+letter-spacing:1px;
+margin-left:-1px;
+top: -18px;
+padding: 3px 11px;
+position:absolute;
+text-transform:uppercase;
+vertical-align:top
+}
+
+.navbar {
+    -webkit-box-shadow: 2px 4px 8px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 4px 8px -6px rgba(0,0,0,0.5);
+    box-shadow: 2px 4px 8px -6px rgba(0,0,0,0.5);
+    background-color: $second-color;
+    border-left: 10px double #f5f5f5;
+    border-right: 10px double #f5f5f5;
+}
+
+.is-vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+///////////////////////////////////// companySummary
+.cLogo {
+    max-width: 64px;
+}
+.cTitle {
+    margin-bottom: .4em!important;
+}
+.cContent {
+    margin-bottom: .4em!important;
+
+}
+////////////////////////////////////////////////////

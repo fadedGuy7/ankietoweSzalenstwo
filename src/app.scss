@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+$purple: #8a4d76;
+$pink: #fa7c91;
+$brown: #757763;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+#root {
+    padding-bottom: 2em;
+}
+.navbar-brand {
+    // background-color: #b4dfe5;
+}
+.navbar-menu {
+    // background-color: #b4dfe5;
+}
+.welcomeIcon {
+    margin: auto;
+}
+.mediaWelcome {
+    margin-top: 0!important;
+    padding-top: 0!important;
+    border-top: 0!important;
+    @media screen and (min-width: 1024px) {
+        margin: 1em!important;
+      }
+       
+}
+.companiesTop {
+    display: flex;
+    justify-content: space-evenly;
+}
+.m-auto {
+    margin: auto;
+}
+// Update Bulma's global variables
+$family-sans-serif: 'Nunito', sans-serif;
+// $grey-dark: $brown;
+// $grey-light: $beige-light;
+// $primary: $purple;
+// $link: $pink;
+// $widescreen-enabled: false;
+// $fullhd-enabled: false;
+$media-border-color: #f5f5f5;
+$second-background-color: white;
+$third-background-color: #fffbeb;
+// Update some of Bulma's component variables
+$body-background-color: hsl(0, 0%, 96%);
+$control-border-width: 2px;
+$second-color: #caebf2;
+// $input-border-color: transparent;
+// $input-shadow: none;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/bulma";
+@import "./scss/frames";
+@import "./scss/loader";
