@@ -21,6 +21,7 @@ const List = ( props ) => {
 }
 
 const Todos = (props) => {
+    console.log(props )
     const toDisplay = props.regLvl ? <List {...props} /> : <div className='margin-auto spinnerSecond icon-spinner-3'></div>;
     return (
         <div className='windowSecond p-2 pb-3'>

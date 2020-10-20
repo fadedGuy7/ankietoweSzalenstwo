@@ -36,7 +36,7 @@ export const signUp = (newUser) => {
                 phoneNo: '',
                 city: newUser.city,
                 ref: newUser.ref,
-                regLvl: 0,
+                regLvl: 1,
                 unlocked: 'false',
                 mes: {},
                 spare: ''

@@ -18,8 +18,9 @@ const CompanyReg = (props) => {
 
     let toDisplay 
     toDisplay = props.regLvl ?
-        props.regLvl >= 0 && props.regLvl < '19' ? 
-                <DisplaySingle regLvl={props.regLvl} uid={props.uid} company={props.toRegisterObj[props.regLvl]} which={id}/> 
+        props.regLvl >= '0' && props.regLvl < '19' ? 
+                props.regLvl == '0' ? <DisplayInfo /> :
+                    <DisplaySingle regLvl={props.regLvl} uid={props.uid} company={props.toRegisterObj[props.regLvl]} which={id}/> 
             : props.regLvl == '19' ? <DisplayGrat /> : <ErrorPage />
                 : <div className='spinnerSecond icon-spinner-3'></div>;
     return (
